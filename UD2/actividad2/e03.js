@@ -5,10 +5,10 @@ if (hermanos >= 0){
             cant;
     }
     if (hermanos >= 3){
-        cant = cant - cant*15/100;
+        cant -= cant*15/100;
         }
     else if (hermanos < 3 && hermanos > 0){
-            cant = cant - cant*5/100;
+            cant -= cant*5/100;
         }          
     }
 alert(`${cant}`);

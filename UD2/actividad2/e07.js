@@ -1,12 +1,14 @@
-let num1 = prompt("ingrese un numero.");
-if (num1 != 0){
+let num1 = parseInt(prompt("ingrese un numero:"));
+if(num1 != 0){
     let r = num1;
+    let num2;
     do {
-        num1 = prompt("ingrese otro numero.")
-        r = r + num2;
-    } while(num1 != 0);
-alert(`La suma es ${r}.`);
+        num2 = parseInt(prompt("Ingrese un numero:"));
+        r += num2;
+    } while (num2 != 0);
+    alert(`La suma es ${r}`);
 }
 else{
-    alert(`La suma es 0.`);
+    alert(`la suma es 0.`);
 }
+
