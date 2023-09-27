@@ -1,0 +1,4 @@
+Admin URL:  https://josaricol.alu.edu.gva.es:8083
+        Backup URL: https://3.87.141.213:8083
+        Username:   admin
+        Password:   UdI7MzdUvqt4n2hl
