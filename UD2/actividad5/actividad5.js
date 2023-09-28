@@ -1,9 +1,9 @@
 let nombre = prompt("Ingrese nombre y apellidos:");
-let salario = parseFloat(prompt("Ingrese su salario:"));
 let edad = parseInt(prompt("Ingrese su edad:"));
+let salario = parseFloat(prompt("Ingrese su salario:"));
+
 
 if (salario > 2000){
-    salario = 2000;
     alert(`El usuario ${nombre} con ${edad} años de edad posee un salario de ${salario} euros.`);
 }
 else if (salario >=1000 && salario <= 2000){
